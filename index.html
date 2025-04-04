@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="calculator-container">
+        <header>
+            <h1>Binary Calculator</h1>
+            <p>Perform arithmetic operations on binary numbers</p>
+        </header>
+
+        <div class="calculator-form">
+            <div class="input-group">
+                <input type="text" id="binary1" placeholder="Enter first binary number" maxlength="8">
+                <select id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">×</option>
+                    <option value="/">÷</option>
+                </select>
+                <input type="text" id="binary2" placeholder="Enter second binary number" maxlength="8">
+            </div>
+            <button id="calculate">Calculate</button>
+        </div>
+
+        <div class="result-container">
+            <h2>Result:</h2>
+            <div id="result" class="result-display">00000000</div>
+        </div>
+
+        <div class="error-container" id="error"></div>
+
+        <div class="history-container">
+            <h3>Calculation History</h3>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+</body>
+</html>
