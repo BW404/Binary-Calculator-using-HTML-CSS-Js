@@ -1,9 +1,6 @@
 
-Built by https://www.blackbox.ai
-
 ---
 
-```markdown
 # Binary Calculator
 
 ## Project Overview
@@ -15,19 +12,9 @@ The **Binary Calculator** is a web-based application that allows users to perfor
 To run the Binary Calculator locally, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
-   git clone <repository_url>
-   cd binary-calculator
-   ```
+
 
 2. **Open the `index.html` file** in your web browser:
-   ```bash
-   open index.html # For macOS
-   ```
-   or
-   ```bash
-   start index.html # For Windows
-   ```
 
 No additional software or dependencies are required to run this application, as it consists of plain HTML, CSS, and JavaScript.
 
@@ -65,4 +52,3 @@ binary-calculator/
 - **script.js**: Implements the logic for binary calculations, input validation, and history tracking.
 
 Feel free to contribute to the project or modify it for your personal use!
-```
